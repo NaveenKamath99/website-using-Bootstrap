@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="naveen.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <div class="a"> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">icoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Technology</a></li>
+                <li><a class="dropdown-item" href="#">web development</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+                <li><a class="dropdown-item" href="#">Write for us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notification <span class="badge bg-info text-dark">4</span></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+      </nav>
+      <div class="alert alert-success" role="alert">
+      A simple success alert—check it out!
+     </div>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>Sucess!</strong> Your form has been filled succesfully.
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+     </div>
+    <div class="container">
+
+     <div id="carouselExampleCaptions" class="carousel slide carousel-fade data-bs-ride="carousel>
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://source.unsplash.com/1400x400/?nature,football" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: orangered;">First slide label</h5>
+            <p style="color: yellow;">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1400x400/?nature,parrot" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: orangered;">Second slide label</h5>
+            <p style="color: cyan;"></h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1400x400/?nature,tiger" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: orangered;">Third slide label</h5>
+            <p style="color: greenyellow;">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="container">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Blog</a></li>
+        <li class="breadcrumb-item"><a href="#">Tutorials</a></li>
+        <li class="breadcrumb-item active" aria-current="page">
+          bootstrap in one blog &nbsp; <span class="badge rounded-pill bg-success">New</span>
+        </li>
+      </ol>
+    </nav>
+    <button type="button" class="btn btn-danger btn-sm">Danger</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+   </div> 
+  </div>
+  <div class="container">
+
+   
+   <div class="card text-center carding" style="width: 18rem;"><br>
+     <img src="https://source.unsplash.com/250x250/?nature,football" class="card-img-top" alt="...">
+     <div class="card-body">
+      <h5 class="card-title">Kirans birthday</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row bg-danger">
+      <div class="col-md-6 border">
+        1 of 2
+      </div>
+      <div class="col-md-6 border">
+        2 of 2
+      </div>
+    </div>
+    <div class="row bg-success">
+      <div class="col-2 col-sm-4 border">
+        1 of 3
+      </div>
+      <div class="col-6 col-sm-4 border">
+        2 of 3
+      </div>
+      <div class="col-4 col-sm-4 border">
+        3 of 3
+      </div>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <button type="button" class="btn btn-primary carding" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
